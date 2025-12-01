@@ -60,7 +60,7 @@ void calculate_fcfs_AT()
     cout << "-----------------------------------------------------\n";
     for(int i = 0; i < n; i++)
     {
-        cout << "P" << i+1 << '\t' << at[i] << '\t' << bt[i] << '\t' << tat[i] << '\t' << wt[i] << '\n';
+        cout << "P" << i+1 << '\t' << at[i] << '\t' << bt[i] << '\t' << ct[i] << '\t' << tat[i] << '\t' << wt[i] << '\n';
     }
 
     cout << endl;
