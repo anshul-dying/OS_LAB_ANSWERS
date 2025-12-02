@@ -1,9 +1,10 @@
 echo -n "Enter a String to check: "
 read s
 
-rev=$(echo "$s" | rev)
+clear=$(echo "$s" | tr -d ' ')
+rev=$(echo "$clear" | rev)
 
-if [ "$s" = "$rev" ]; then
+if [ "$clear" = "$rev" ]; then
 	echo "Palindrome"
 else
 	echo "Not Palindrome"
